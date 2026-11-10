@@ -1,0 +1,3 @@
+{
+  "note": "No outcome labels yet, so rule scoring is used. Add a `converted` column (1 = became a client) to train the ML model."
+}
