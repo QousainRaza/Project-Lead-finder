@@ -3,6 +3,12 @@
 
 Automated lead generation and research pipeline. It finds local businesses, checks how well each one handles online customers, and ranks who to contact first.
 
+**Live demo:** https://leadfinderaa.streamlit.app/
+
+![Lead Finder dashboard showing ranked clinics in Peshawar](docs/dashboard.png)
+
+The screenshot shows clinics in Peshawar collected from OpenStreetMap and ranked with the rule score (no outcome labels yet).
+
 ```
 collect.py  ->  enrich.py  ->  score.py  ->  app.py (dashboard)
 OpenStreetMap   website signals   rules + ML     ranked leads, map, CSV
